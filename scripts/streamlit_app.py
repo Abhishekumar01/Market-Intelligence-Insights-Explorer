@@ -3,8 +3,8 @@ import json
 import requests
 
 # Google Gemini API key and endpoint - replace with your actual key
-GEMINI_API_KEY = "AIzaSyDjznJl5Tp4AGNjvhY6JhEJ0ZSMMd-mK4o"
-GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent"
+GEMINI_API_KEY = "Please Enter Your API Key"
+GEMINI_API_URL = "Please Enter Your API URL"
 
 def get_llm_insight(prompt: str) -> str:
     headers = {
